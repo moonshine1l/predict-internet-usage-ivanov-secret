@@ -1,0 +1,7 @@
+experiment,max_depth,n_estimators,learning_rate,class_weight,mean_training_qwk,mean_validation_qwk,validation_std_qwk,train_validation_gap,oof_pred_0_count,oof_pred_1_count,oof_pred_2_count,oof_pred_3_count
+estimators_200_rate_0.2,2,200,0.2,none,0.3912,0.3481,0.0295,0.043,2026,568,141,1
+estimators_100_rate_0.5,2,100,0.5,none,0.4016,0.3441,0.0376,0.0575,1990,549,196,1
+balanced,2,200,0.2,balanced,0.3484,0.3279,0.0299,0.0205,1595,228,642,271
+depth_2,2,50,1.0,none,0.4153,0.3257,0.0277,0.0896,1835,605,294,2
+depth_1,1,50,1.0,none,0.3285,0.3124,0.0475,0.016,2054,486,196,0
+depth_3,3,50,1.0,none,0.4867,0.2936,0.0517,0.1931,1758,670,303,5
