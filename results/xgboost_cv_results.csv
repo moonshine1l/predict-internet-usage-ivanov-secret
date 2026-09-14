@@ -1,0 +1,8 @@
+setup,mean_val_qwk,val_std_qwk,mean_train_qwk
+XGBRegressor | tuned + extra features + optimized thresholds,0.4767,,
+XGBRegressor | Optuna-tuned + optimized thresholds,0.4722,,
+Blend | tuned XGBRegressor + Ridge + optimized thresholds,0.4722,,
+Ridge | Layer A reference + optimized thresholds,0.441,,
+"XGBRegressor | Layer A, default params + optimized thresholds",0.4287,,
+XGBRegressor | class-weighted + optimized thresholds,0.4182,,
+"XGBClassifier | Layer A, default-style baseline",0.3085,0.0286,1.0
