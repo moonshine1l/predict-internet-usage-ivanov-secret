@@ -1,0 +1,9 @@
+setup,mean_val_qwk,val_std_qwk,mean_train_qwk
+Blend | tuned CatBoostRegressor + Ridge (weight swept) + optimized thresholds,0.4643,,
+"CatBoostRegressor | Layer A, Optuna-tuned + optimized thresholds",0.4643,,
+"CatBoostRegressor | Layer A + extra engineered features, tuned + optimized thresholds",0.4595,,
+"CatBoostRegressor | Layer A, default params + optimized thresholds",0.4587,,
+"CatBoostRegressor | Layer A, class-weighted sample_weight + optimized thresholds",0.4421,,
+"Ridge | Layer A, median imputation + optimized thresholds (for blend reference)",0.4354,,
+"CatBoostClassifier | Layer A, class-weighted (SqrtBalanced)",0.3532,0.0574,0.9176
+"CatBoostClassifier | Layer A, default params (untuned)",0.344,0.0542,0.8691
