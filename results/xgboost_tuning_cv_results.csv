@@ -1,5 +1,5 @@
 setup,mean_val_qwk,val_std_qwk,mean_train_qwk
-XGBRegressor | Optuna-tuned + optimized thresholds,0.4145,0.0598,
+XGBRegressor | Optuna-tuned (median imputation) + optimized thresholds,0.4145,0.0598,
 Blend | tuned XGBRegressor + Ridge + optimized thresholds,0.4145,,
 "XGBRegressor | Layer A, default params + optimized thresholds",0.3944,0.0185,
 Ridge | Layer A reference + optimized thresholds,0.3803,,
